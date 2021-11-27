@@ -1,19 +1,19 @@
-# 10x Academy JavaScript Assignments
+# Callback Function
 
-## Curated list of JavaScript Assignments to make you familiar with the concepts of the language
+## Run the callback function's result from your function
 
-<br />  
-  
-[Assignments:](assignments)
-* [BMI Calculator](assignments/bmi_calculator/BMICalculator.md)
-* [Favourite Movie](assignments/favourite_movie/FavouriteMovie.md)
-* [Can Drive](assignments/can_drive/CanDrive.md)
-* [Run Callback](assignments/run_callback/RunCallback.md)
-* [Play With Array](assignments/play_with_array/PlayWithArray.md)
-* [Create Object](assignments/create_object/CreateObject.md)
+Instructions
+* The function would receive 3 arguments called a, b and cb (cb is the callback function)
+* Add a and b and use the result as argument to the callback function
+* Return the callback function cb result
 
-## Please follow these steps before submitting
-* Create a new branch off master to code your solution into
-* Check if you have followed the instructions properly
-* Run ```npm run test``` and see if all the test cases are passed
-* If all the tests are passed, push the code and raise the PR 
+```bash
+Example - let us assume the callback function just prints the argument passed
+Input - 3, 4, cb
+Output - 7
+Input - 5, 8, cb
+Output - 13
+```
+
+Run ```npm run test:file run_callback``` to test your code
+
